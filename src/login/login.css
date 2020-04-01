@@ -1,0 +1,17 @@
+
+/* Pavana */
+.backImg{
+    background-image: url(../images/loginImg.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position-x:center;
+  }
+  .loginPage{
+    height:100vh;
+  }
+  .loginCard{
+    padding:80px 40px;
+  }
+  .font12{
+    font-size:12px;
+  }
