@@ -13,5 +13,3 @@ firebase.initializeApp(config);
 const databaseRef = firebase.database().ref()
 
 export const userRef = databaseRef.child("users")
-
-// export const journalRef = databaseRef.child("journals")
