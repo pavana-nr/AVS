@@ -21,7 +21,7 @@ render() {
     return (
       <div className="container-fluid"> 
           <MDBNav tabs>
-          <MDBNavItem>
+          <MDBNavItem className="card">
             <MDBNavLink
               link
               to="#"
@@ -32,7 +32,7 @@ render() {
                Home
             </MDBNavLink>
           </MDBNavItem>
-          <MDBNavItem>
+          <MDBNavItem className="card">
             <MDBNavLink
               link
               to="#"
@@ -43,7 +43,7 @@ render() {
               About
             </MDBNavLink>
           </MDBNavItem>
-          <MDBNavItem>
+          <MDBNavItem className="card">
             <MDBNavLink
               link
               to="#"
@@ -54,7 +54,7 @@ render() {
              Committee
             </MDBNavLink>
           </MDBNavItem>
-          <MDBNavItem>
+          <MDBNavItem className="card">
             <MDBNavLink
               link
               to="#"
@@ -65,7 +65,7 @@ render() {
              Courses
             </MDBNavLink>
           </MDBNavItem>
-          <MDBNavItem>
+          <MDBNavItem className="card">
             <MDBNavLink
               link
               to="#"
@@ -77,7 +77,8 @@ render() {
             </MDBNavLink>
           </MDBNavItem>
         </MDBNav>
-        <div className="fLeft">
+<div className="completeDiv d-flex">
+<div className="fLeft">
           <div className="card m-3">
             <div className="bBottom">
               <div className="p-3">Schedule</div>
@@ -164,8 +165,9 @@ render() {
          
         </MDBTabContent>
         <div className="fRight">
+          <h3 className="text-center">Testimonials</h3>
           <Carousel/>
-          <div className="p-3">
+          {/* <div className="p-3">
           <div>Radio</div>
           <div className="">Short terms courses</div>
           <ol>
@@ -182,8 +184,10 @@ render() {
               <li>General Content</li>
             </ol>
           </ol>
-        </div>
+        </div> */}
                   </div>
+</div>
+        
       </div>
     );
   }

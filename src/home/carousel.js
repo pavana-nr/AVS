@@ -16,29 +16,58 @@ const Carousel = () => {
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBView>
-              <img
+              <h3 className="text-center">Data1</h3>
+              <div>
+              <img src={require('../images/person.png')} className="w-100"/>
+              </div>
+              <div className="p-2">
+                <p>dfghjkl dfghjk rftgyhujk rftgyhujk dfghj dfghjk edrftgyhuj sdfghj sdfghj xdfghj dfghj dfgh 
+                  sdxfcghbnj 
+                  dcfvgbhnjmk,
+                  cfvghjkl
+                  sxdcfvgbhnjmk
+                </p>
+                <small>- Pavana N R</small>
+              </div>
+              {/* <img
                 className="d-block w-100"
                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(35).jpg"
                 alt="First slide"
-              />
+              /> */}
             </MDBView>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="2">
             <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg"
-                alt="Second slide"
-              />
+            <h3 className="text-center">Data2</h3>
+            <div>
+              <img src={require('../images/person.png')} className="w-100"/>
+              </div>
+              <div className="p-2">
+                <p>dfghjkl dfghjk rftgyhujk rftgyhujk dfghj dfghjk edrftgyhuj sdfghj sdfghj xdfghj dfghj dfgh 
+                  sdxfcghbnj 
+                  dcfvgbhnjmk,
+                  cfvghjkl
+                  sxdcfvgbhnjmk
+                </p>
+                <small>- Pavana N R</small>
+              </div>
             </MDBView>
           </MDBCarouselItem>
           <MDBCarouselItem itemId="3">
             <MDBView>
-              <img
-                className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(31).jpg"
-                alt="Third slide"
-              />
+            <h3 className="text-center">Data3</h3>
+            <div>
+              <img src={require('../images/person.png')} className="w-100"/>
+              </div>
+              <div className="p-2">
+                <p>dfghjkl dfghjk rftgyhujk rftgyhujk dfghj dfghjk edrftgyhuj sdfghj sdfghj xdfghj dfghj dfgh 
+                  sdxfcghbnj 
+                  dcfvgbhnjmk,
+                  cfvghjkl
+                  sxdcfvgbhnjmk
+                </p>
+                <small>- Pavana N R</small>
+              </div>
             </MDBView>
           </MDBCarouselItem>
         </MDBCarouselInner>
