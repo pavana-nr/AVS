@@ -1,0 +1,15 @@
+.tabData{
+    width:calc(100vw - (630px));
+    display: inline-block;
+}
+.fRight{
+    float:right;
+    width:300px;
+}
+.fLeft{
+    float:left;
+    width:300px;
+}
+.bBottom{
+    border-bottom: 1px solid #ccc;
+}
