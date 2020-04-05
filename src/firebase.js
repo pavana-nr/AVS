@@ -10,6 +10,8 @@ const config = {
   measurementId: "G-36X5YQQ2MB"
 }
 firebase.initializeApp(config);
-const databaseRef = firebase.database().ref()
+
+const databaseRef = firebase.database().ref();
+
 
 export const userRef = databaseRef.child("users")

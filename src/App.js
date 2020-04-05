@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Signup from './login/singup';
 import './firebase';
+import Fileupload from './file/file';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/Signup' component={Signup} />
           <Route path='/login' component={Login} />
+          <Route path='/file' component={Fileupload} />
         </Switch>
       </div>
     </Router>

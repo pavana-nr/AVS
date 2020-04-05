@@ -25,7 +25,9 @@ class Login extends Component {
       .signInWithEmailAndPassword(email, password)
       .then(({ user }) => {
         debugger;
-        console.log("User",user);
+        console.log("User",user.uid);
+        localStorage.setItem('postedBy', user.email);
+        localStorage.setItem("userId",user.uid);
         this.setState({loading: false});
       })
       .catch(({ message }) => {
@@ -64,7 +66,6 @@ class Login extends Component {
               <div className='text-center'>
                 {' '}
                 Don't have an account?
-                {/* <a className="font12 text-dark pt-2" href="javascript:void(0);">SignUp</a> */}
                 <Link to='/signup'>SignUp</Link>
               </div>
             </div>
